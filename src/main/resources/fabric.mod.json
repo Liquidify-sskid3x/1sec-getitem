@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "spearswap",
+  "version": "${version}",
+  "name": "get random items",
+  "description": "idk",
+  "authors": [
+    "Liquidify"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.randomitem.RandomItemMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
